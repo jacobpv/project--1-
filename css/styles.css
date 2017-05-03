@@ -1,10 +1,10 @@
 /**************************
  General-Global Layout Set-up
 ***************************/
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
 	font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -26,9 +26,6 @@ h2 {
 	margin:0 0 1em 0;
 }
 
-/******************************
-NAVIGATION-LINK STYLES
-*****************************/
 .main-nav {
   width: 100%;
   min-height: 30px;
@@ -69,12 +66,12 @@ header {
 }
 
 header {
-  line-height: 1.5;	
+  line-height: 1.5;
 }
 
 header .logo{
 	text-align:center;
-	margin:0;	
+	margin:0;
 }
 
 h1 .tag{
@@ -115,7 +112,7 @@ header .profile-image:hover {
   text-align: left;
   background: #dcfbcc;
   border-bottom: 4px solid white;
-	
+
   border-radius: 6px;
   transition: all .5s;
 }
@@ -181,7 +178,7 @@ padding:0;
 margin:0;
 font-size:0.9em;
 }
-  
+
 
 .contact-info a {
   display: block;
@@ -195,7 +192,7 @@ font-size:0.9em;
   .contact-info li.phone a {
   background-image: url('../img/phone.png');
 }
- 
+
 .contact-info li.mail a {
   background-image: url('../img/mail.png');
 }
@@ -234,10 +231,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -271,21 +268,21 @@ a.social:hover {
 /***************************
 	Color
 ****************************/
-	
+
 	body{
 	color: #222;
   background: #9ed1c7;
 			}
-	
+
 	a {
   text-decoration: none;
   color: #999;
     }
-	
+
 a:hover {
   color: #6633ff;
         }
-	
+
 	.tag {
   background-color: #dcfbcc;
   color: black
@@ -295,11 +292,11 @@ a:hover {
   background:#dcfbcc;
 	border-bottom: 4px solid white;
 	}
-	
+
 	.nav .name {
 		 color: white;
 	}
-	
+
 	.nav a:hover {
   color: white
 	}
