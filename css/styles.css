@@ -171,8 +171,6 @@ footer ul li  {
   height:20px;
 }
 
-
-
 /**************************
 PAGE: CONTACT
 ***************************/
@@ -183,6 +181,9 @@ margin:0;
 font-size:0.9em;
 }
 
+
+
+
 .contact-info a {
   display: block;
   min-height: 20px;
@@ -190,6 +191,17 @@ font-size:0.9em;
   background-size: 20px 20px;
   padding:0 0 0 30px;
   margin: 0 0 10px;
+}
+
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.svg');
+}
+.contact-info li.mail a {
+  background-image: url('../img/mail.svg');
+}
+.contact-info li.twitter a {
+ background-image: url('../img/twitter.svg');
 }
 
 #primary {
