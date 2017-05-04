@@ -23,6 +23,8 @@ a {
 }
 
 h2 {
+  font-size:1em;
+  font-weight: normal;
 	margin:0 0 1em 0;
 }
 /*****************************
@@ -152,7 +154,8 @@ footer {
 }
 
 footer .copyright {
-  top: -8px;
+  bottom: auto;
+  clear: both;
   font-size: .75em;
 }
 
@@ -189,6 +192,13 @@ font-size:0.9em;
   margin: 0 0 10px;
 }
 
+#primary {
+  text-align:justify;
+}
+#secondary {
+  text-align:justify;
+}
+
 
 a.social {background-repeat:
   display: inline-block;
@@ -200,21 +210,19 @@ a.social {background-repeat:
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(img/twitter.svg);
+
+}
+
+a.github {
+  background-image: url(img/github.svg);
 }
 a.linkedin {
   background-image: url(img/linkedin.svg);
 }
-a.github {
-  background-image: url(img/github.svg);
+a.twitter {
+  background-image: url(img/twitter.svg);
 }
-a.mail {
-  background-image: url(img/mail.png);
-}
-a.phone {
-  background-image: url(img/phone.png);
-}
+
 a.social:hover {
   opacity: 1;
 }
