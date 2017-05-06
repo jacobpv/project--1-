@@ -15,14 +15,20 @@ body {
 a {
   text-decoration: none;
 }
+p {
+  text-align: left;
+}
 
+.copyright {
+ text-align: center;
+}
 #wrapper{
   max-width: 940px;
   margin:0 auto;
   padding:0 5%;
 }
 
-h2 {
+h1h2h3h4 {
   font-size:1em;
   font-weight: normal;
 	margin:0 0 1em 0;
@@ -56,7 +62,14 @@ NAVIGATION-LINK STYLES
   transition: all .5s;
 }
 
-
+.tag {
+  background-color: #dcfbcc;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
 
 /**************************
 Heading
@@ -67,15 +80,6 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-
-header {
-  line-height: 1.5;
-}
-
-header .logo{
-	text-align:center;
-	margin:0;
 }
 
 h1 .tag{
@@ -94,15 +98,6 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
-}
-
-.tag {
-  background-color: #dcfbcc;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
 }
 
 .location {
@@ -153,13 +148,13 @@ footer {
   padding: 20px 0 40px 20px;
 }
 
-footer .copyright {
+ .copyright {
   bottom: auto;
   clear: both;
-  font-size: .75em;
+  font-size: .50em;
 }
 
-footer ul {
+footer .social-icon ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -171,21 +166,36 @@ footer ul li  {
   height:20px;
 }
 
+
+
+/**************************
+PAGE: EXPERIENCE
+***************************/
+  .profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius:100%;
+}
+
+
 /**************************
 PAGE: CONTACT
 ***************************/
 .contact-info {
+  float:none;
 list-style: none;
 padding:0;
 margin:0;
 font-size:0.9em;
 }
 
-
-
+.phone{
+  min-height: 20px;
+}
 
 .contact-info a {
-  display: block;
+  display:block;
   min-height: 20px;
   background-repeat: no-repeat;
   background-size: 20px 20px;
@@ -193,16 +203,6 @@ font-size:0.9em;
   margin: 0 0 10px;
 }
 
-
-.contact-info li.phone a {
-  background-image: url('../img/phone.svg');
-}
-.contact-info li.mail a {
-  background-image: url('../img/mail.svg');
-}
-.contact-info li.twitter a {
- background-image: url('../img/twitter.svg');
-}
 
 #primary {
   text-align:justify;
@@ -223,10 +223,8 @@ a.social {background-repeat:
   transition: all .5s;
 }
 
-}
-
-a.github {
-  background-image: url(img/github.svg);
+.contact-info li.phone a {
+  background-image: url('..img/phone.png');
 }
 a.linkedin {
   background-image: url(img/linkedin.svg);
@@ -300,6 +298,11 @@ a:hover {
   background-color: #dcfbcc;
   color: black
 			}
+
+.nav {
+  color:black;
+}
+
 
 	.main-nav {
   background:#dcfbcc;

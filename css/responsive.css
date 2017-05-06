@@ -1,21 +1,93 @@
 @media screen and (min-width:480px) {
 /******************************************
-TWO COLUMN LAYOUT
+TWO COLUMN
 *******************************************/
   #primary {
     width:50%;
     float:left;
   }
-  
+
   #secondary {
     width: 40%;
     float:right;
   }
+
+/**************************
+ PAGE: EXPERIENCE
+***************************/
+
+.profile-image {
+  float: left;
+  margin: 0 5% 80px 0;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
 }
 
 
+@media screen and (min-width: 720px) {
+
+/***************************
+ HEADER
+***************************/
+ nav {
+  background:none;
+  float:right;
+  font-size:1.12em;
+  margin-right:5%;
+  text-align:5%;
+  width:45%
+  }
+
+  #logo {
+      float:left;
+      margin-left: 5%
+      text-align: left;
+      width: 45%
+  }
+
+ header .profile-photo {
+   display: block;
+    margin:0 auto;
+  }
+
+  h1 {
+    font-size:1.5em;
+  }
+
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex;
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 470px;
+  }
 
 
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+    }
 
 
+  main {
+    padding-top: 20px;
+  }
 
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
